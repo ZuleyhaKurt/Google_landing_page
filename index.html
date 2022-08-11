@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/gfavicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="header">
-        <div class="headerleft">
-            <span>About</span>
-            <span>Store</span>
+        <div class="header1">
+            <ul  class="headerleft">
+            <li>About</li>
+            <li>Store</li>
+            </ul>
         </div>
         <div class="header2" >
             <ul class="headerright">
-                <li><span>Gmail</span></li>
-                <li><span>Images</span></li>
-                <li><a href="https://google.com"><img src="img/appicon.png" alt=""></a></li>
-                <li><button>Sign In</button></li>
+                <li class="gmail">Gmail</li>
+                <li class="images">Images</li>
+                <li><a href="https://google.com"><img  id="appicon" src="img/appicon.png" alt=""></a></li>
+                <li><button class="signin">Sign In</button></li>
             </ul>
 
         </div>
@@ -26,18 +29,21 @@
 
     <div class="main">
         <div><img src="img/googlelogo.png" alt=""></div> <br>
-        <div class="search"><input type="text" name="" id="input">
-        <img class="buyutec" src="img/Magnifying_glass_icon.png" alt="" width="15px" height="15px">
-        <img  class="mikrofon" src="img/google_microphone.png" alt="" width="15px" height="20px">
         
-        </div> <br>
+       <form action="" class="search">
+            <input type="text" name="" id="input">
+            <img class="buyutec" src="img/Magnifying_glass_icon.png" alt="" width="15px" height="15px">
+            <img  class="mikrofon" src="img/google_microphone.png" alt="" width="15px" height="20px">
+        
+        </form>
+        <br>
        
        
         <div>
             <button class="searchbutton">Google Search</button>
             <button class="searchbutton">I'm feeling Lucky</button>
         </div>
-        <p>Lorem ipsum dolor sit amet. <span><a href="">English</a></span></p>
+        <p>Lorem ipsum dolor sit amet. <span ><a class="language" href="">English</a></span></p>
     </div>
 </body>
 </html>
